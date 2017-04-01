@@ -8,11 +8,9 @@ modules:
    path: web
    requires:
     - name: hana_5-uaa
-    
+
 resources:
  - name: hana_5-uaa
    type: com.sap.xs.uaa
    parameters:
-   config_path: ./xs-security.json
-
-
+    config_path: ./xs-security.json
