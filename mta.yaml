@@ -1,0 +1,18 @@
+_schema-version: '2.0'
+ID: Test_WebIDE-1
+version: 0.0.1
+
+modules:
+ - name: web
+   type: html5
+   path: web
+   requires:
+    - name: hana_5-uaa
+    
+resources:
+ - name: hana_5-uaa
+   type: com.sap.xs.uaa
+   parameters:
+   config_path: ./xs-security.json
+
+
